@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 포트폴리오</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #0077be;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+        .section {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background-color: #0077be;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="/api/placeholder/200/200" alt="내 프로필 사진" class="profile-img">
+            <h1>꼬량스 집사</h1>
+            <p>냥집사 & 이작가야</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>자기소개</h2>
+            <p>
+                안녕하세요! 저는 소소하게 살아가며 잠깐 잠깐의 여유를 즐기면서 살고 있는 "챔피온" 면티입은 사람
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>보유 기술</h2>
+            <div class="skills">
+                <span class="skill-tag">산책</span>
+                <span class="skill-tag">먼산 보기</span>
+                <span class="skill-tag">숨 쉬기</span>
+                <span class="skill-tag">음악 듣기</span>
+                <span class="skill-tag">낮잠자기</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>프로젝트 경험</h2>
+            <ul>
+                <li>
+                    <strong> 빚 삭감 계획</strong>
+                    <p>세컨하우스 마련의 비경제성 인식 프로젝트</p>
+                </li>
+                <li>
+                    <strong>항노화 프로젝트</strong>
+                    <p>단백질 섭취량 하루 50g 이상</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>연락처</h2>
+            <p>📧 이메일: portsait@naver.com
+            <p>📱 연락처: 055-239-0116</p>
+        </div>
+    </div>
+</body>
+</html>
